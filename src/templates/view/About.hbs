@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>Head}}
+<head>
+    <style>
+        *{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.about-section{
+  background: url(../imagevidio/pic.jpg) no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.text{
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
+    </style>
+</head>
+<body>
+
+    <div id="about">
+            {{>Navbar}}
+   <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                If you wish to create a digital road-map for your business, it is vital for you to implement smart and effective web technologies & digital marketing services for enhanced outcomes. Digital marketing in today’s era is the best ploy to advertise a business across the globe. If you have expertise in publicizing your business, you have the best chance to earn higher revenues. For a newbie in digital marketing, we at Ekana Technologies are there to lend a helping hand. Our prime goal is to outdo the expectations of every client by offering outstanding customer service, improved flexibility, and greater value for their money, hence enhancing system functionality and augmenting operation expertise.
+
+Aditya Technicals offers innovative digital marketing, web development and design services along with the app development services, all under one roof. Our staple services include web designing and development, mobile apps development, custom application development, E-commerce website development, SEO and digital marketing services, in consort with a special feature of product branding. Through these remarkable services, we help businesses and companies to use high-end technology to their optimal advantage. We even are adept at creating custom websites using technologies, such as PHP, Node.JS. Being one of the best website development company, we take pride in offering commendable services to the extensive array of business with a client base all across the world.
+
+ 
+
+In today’s era of the internet and mobile communication, one cannot afford to stay standoffish. If businesses want to upturn their revenue, they need to optimize their online presence. And this is what we are expertise in to do. We provide our customers with the best services, innovative products with meaningful solutions with the plus point of well-timed delivery at quite a reasonable cost.  We, at Ekana Technologies, use the most innovative approach to achieve our goal of quality services and client satisfaction. Our team comprises some experts in the industry and provides a harmonious environment where you can explore the vision within yourself and rise above the boundaries.
+            </p>
+            <div class="skills">
+                <span>Web Design</span>
+                <span>Photoshop & Illustrator</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+</body>
+</html>

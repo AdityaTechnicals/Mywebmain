@@ -1,0 +1,51 @@
+<div class="contact" >
+    <h1>Contact</h1>
+    <form action='/message'  name="RegForm" method="post" onsubmit="return GEEKFORGEEKS()"class='form'>
+  <div class='field required'>
+    <label class='label required' for='name'>Full name</label>
+    <input class='text-input' id='name' name='name' required type='text' >
+  </div>
+  <div class='field required half'>
+    <label class='label' for='email'>E-mail</label>
+    <input class='text-input' id='email' name='email' required type='email'>
+  </div>
+  <div class='field half'>
+    <label class='label' for='phone'>Phone</label>
+    <input class='text-input' id='phone' name='phnum' type='phone'>
+  </div>
+   <div class='field'>
+    <label class='label'>Service U want</label>
+    <ul class='options'>
+      <li class='option'>
+        <input class='option-input' id='option-0' name='options' type='radio' value='webdev'>
+        <label class='option-label' for='option-0'>Website development</label>
+      </li>
+      <li class='option'>
+        <input class='option-input' id='option-1' name='options' type='radio' value='ecom'>
+        <label class='option-label' for='option-1'>Ecommerce</label>
+      </li>
+
+      <li class='option'>
+        <input class='option-input' id='option-3' name='options' type='radio' value='App development'>
+        <label class='option-label' for='option-3'>App development</label>
+      </li>
+      <li class='option'>
+        <input class='option-input' id='option-4' name='options' type='radio' value='webupdate'>
+        <label class='option-label' for='option-4'>Website Update</label>
+      </li>
+ 
+    </ul>
+    </div>
+
+
+  <div class='field'>
+    <label class='label' for='about'>Message</label>
+    <textarea class='textarea' cols='50' class='about' name='message' rows='4'></textarea>
+  </div>
+ 
+  <div class='field half'>
+    <input class='button'  type='submit' value='Send'>
+  </div>
+</form>
+
+</div>
